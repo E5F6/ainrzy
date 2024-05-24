@@ -30,8 +30,8 @@ const Navbar = () => {
     <nav className="w-full px-5 py-3 flex flex-col justify-center items-center navbar">
       <div className="flex items-center justify-between w-full lg:w-[80vw]">
         {/* Logo */}
-        <div className="flex items-center text-white text-3xl gap-4 font-bold px-3">
-          <Image src="/logo.jpg" height={50} width={50}></Image>
+        <div className="flex items-center text-white text-3xl gap-2 font-bold px-3">
+          <Image src="/logo.png" height={40} width={40}></Image>
           <h1 className="text-xl font-bold">AiNrzy</h1>
         </div>
         {/* Desktop Menu */}
