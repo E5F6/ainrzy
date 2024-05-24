@@ -36,15 +36,20 @@ const Footer = () => {
     ]
 
     return (
-        <footer className="w-full px-5 py-3 flex flex-col justify-center items-center footer">
-            <section className="flex flex-col lg:flex-row justify-between gap-5 items-center w-full lg:w-[80vw]">
+        <footer className="w-full px-5 py-10 flex flex-col justify-center items-center footer">
+            <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-5 items-center w-full lg:w-[80vw] text-slate-200 text-center">
                     <div className="flex flex-col justify-start items-center gap-2">
-                    <h1 className="self-start text-2xl font-medium">AINRZY</h1>
-                    <p className="text-xl font-medium self-start">Bringing AI To Web3</p>
+                    <h1 className="text-2xl font-medium">AINRZY</h1>
+                    <p className="text-xl font-medium">Bringing AI To Web3</p>
+                    </div>
+                    <div className="flex flex-col justify-center items-center gap-2">
+                    <Link href="" className="text-xl font-medium">Home</Link>
+                    <Link href="" className="text-xl font-medium">Ecosystem</Link>
+                    <Link href="" className="text-xl font-medium">Token</Link>
                     </div>
                     <div className="flex flex-col justify-start items-center gap-3">
-                        <h1 className="text-2xl font-medium self-start">Follow Us On</h1>
-                        <div className="flex justify-start items-center gap-4">
+                        <h1 className="text-2xl font-medium">Follow Us On</h1>
+                        <div className="flex flex-wrap justify-center items-center gap-4">
                             {socials.map((social, index) => (
                                 <div key={index} className="">
                                     <Link href={social.url}>
@@ -55,9 +60,6 @@ const Footer = () => {
                         </div>
                     </div>
             </section>
-                    <div className="flex justify-center items-center font-medium mt-4 mb-4">
-                        <p>ainrzy@2024</p>
-                    </div>
         </footer>
     )
 }
