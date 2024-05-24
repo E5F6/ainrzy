@@ -21,14 +21,6 @@ const Navbar = () => {
       url: "",
     },
     {
-      name: "Build on AIN",
-      url: "",
-    },
-    {
-      name: "AINFT",
-      url: "",
-    },
-    {
         name: "Token",
         url: "",
     },
@@ -39,7 +31,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between w-full lg:w-[80vw]">
         {/* Logo */}
         <div className="flex items-center text-white text-3xl font-bold px-3">
-          <Image src="/logo.png" height={50} width={150} objectFit="cover"></Image>
+          <Image src="/logo.png" height={50} width={150}></Image>
         </div>
         {/* Desktop Menu */}
         <div className="hidden lg:flex justify-center items-center gap-5 text-white">
