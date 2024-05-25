@@ -13,7 +13,7 @@ const TokenHero = () => {
             <h2 className="font-medium text-slate-300 text-center">{description}</h2>
             </div>
             <div className="flex justify-center items-center col-span-1">
-                <img src="/ecohero.png" alt="" className="max-h-[450px]"/>
+                <img src="/coin.png" alt="" className="max-h-[450px]"/>
             </div>
            </div>
         </section>

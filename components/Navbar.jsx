@@ -34,10 +34,10 @@ const Navbar = () => {
     <nav className="w-full px-5 py-3 flex flex-col justify-center items-center navbar">
       <div className="flex items-center justify-between w-full lg:w-[80vw]">
         {/* Logo */}
-        <div className="flex items-center text-white text-3xl gap-2 font-bold px-3">
+        <Link href="/" className="flex items-center text-white text-3xl gap-2 font-bold px-3">
           <Image src="/logo.png" height={40} width={40}></Image>
           <h1 className="text-xl font-bold">AiNrzy</h1>
-        </div>
+        </Link>
         {/* Desktop Menu */}
         <div className="hidden lg:flex justify-center items-center gap-5 text-white">
           {menuItems.map((menuItems, index) => (

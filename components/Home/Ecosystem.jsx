@@ -4,21 +4,21 @@ const Ecosystem = () => {
 
     const hellox = [
         {
-            image: "/eco1.png",
+            image: "/developer.png",
             title: "Bring Developers Together",
             text: "Become a developer and get rewards",
             link: "/ecosystem",
             button: "Become a Developer",
         },
         {
-            image: "/eco2.png",
+            image: "/opensource.png",
             title: "Bring AI Devs To Open Source",
             text: "Gain access to open source AI projects & contribute",
             link: "/community",
             button: "Build on AiNrzy",
         },
         {
-            image: "/eco3.png",
+            image: "/api.png",
             title: "Ai Api's For Everyone",
             text: "Making Ai Api's Available For Everyone",
             link: "/community",
