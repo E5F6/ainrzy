@@ -6,22 +6,22 @@ const EcoRoles = () => {
         {
             name: "Developer",
             desc: "Unlock the power of code and technology to build innovative solutions, shape the digital world, and drive meaningful change.",
-            button: "Become A Developer",
-            url: "",
+            button: "Become a Developer",
+            url: "/community",
             image: "/developer.jpeg",
         },
         {
             name: "Creator",
             desc: "Express your imagination, craft compelling stories, design captivating visuals, and bring your ideas to life. Embrace your creativity.",
-            button: "Become A Creater",
-            url: "",
+            button: "Become a Creater",
+            url: "/community",
             image: "/developer.jpeg",
         },
         {
             name: "Captain",
             desc: "Lead with vision, inspire teams, navigate challenges, and chart new horizons. Harness your leadership skills.",
-            button: "Become A Captain",
-            url: "",
+            button: "Become a Captain",
+            url: "/community",
             image: "/developer.jpeg",
         },
     ]

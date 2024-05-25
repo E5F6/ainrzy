@@ -1,7 +1,6 @@
 import { FaXTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa6";
 import { FaTelegram } from "react-icons/fa";
 import Link from "next/link";
 
@@ -11,22 +10,22 @@ const Footer = () => {
         {
             name: "Twitter",
             icon: <FaXTwitter />,
-            url: ""
+            url: "https://x.com/AiNrzy"
         },
         {
             name: "Telegram",
             icon: <FaTelegram />,
-            url: ""
+            url: "https://t.me/ainrzy"
         },
         {
             name: "Discord",
             icon: <FaDiscord />,
-            url: ""
+            url: "https://discord.gg/wQUKzFKd"
         },
         {
             name: "Github",
             icon: <FaGithub />,
-            url: ""
+            url: "https://github.com/ainrzy-org"
         },
     ]
 
@@ -40,7 +39,7 @@ const Footer = () => {
                     <div className="flex flex-col justify-center items-center gap-2">
                     <Link href="/" className="text-xl font-medium hover:underline">Home</Link>
                     <Link href="/ecosystem" className="text-xl font-medium hover:underline">Ecosystem</Link>
-                    {/* <Link href="/token" className="text-xl font-medium hover:underline">Token</Link> */}
+                    <Link href="/token" className="text-xl font-medium hover:underline">Token</Link>
                     <Link href="/community" className="text-xl font-medium hover:underline">Community</Link>
                     </div>
                     <div className="flex flex-col justify-start items-center gap-3">

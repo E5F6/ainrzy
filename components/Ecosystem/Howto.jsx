@@ -7,7 +7,7 @@ const HowToParticipate = () => {
             stepno: "1",
             name: "Join All Social Communities",
             desc: "Connect with relevant social groups and platforms to engage with others",
-            url: "",
+            url: "/community",
             link: "Join =>",
         },
         {

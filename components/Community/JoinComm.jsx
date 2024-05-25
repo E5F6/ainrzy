@@ -13,25 +13,25 @@ const JoinComm = () => {
             name: "Discord",
             icon: <FaDiscord />,
             desc: "Real-time collaboration and discussion hub for AI enthusiasts.",
-            link: "",
+            link: "https://discord.gg/wQUKzFKd",
         },
         {
             name: "Twitter",
             icon: <FaXTwitter />,
             desc: "Stay updated with the latest AI trends and community news",
-            link: "",
+            link: "https://x.com/AiNrzy",
         },
         {
             name: "Github",
             icon: <FaGithub />,
             desc: "Contribute to cutting-edge AI projects and repositories.",
-            link: "",
+            link: "https://github.com/ainrzy-org",
         },
         {
             name: "Telegram",
             icon: <FaTelegram />,
             desc: "Instant messaging for AI enthusiasts to connect and share insights.",
-            link: "",
+            link: "https://t.me/ainrzy",
         },
     ]
 
