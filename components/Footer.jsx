@@ -39,7 +39,7 @@ const Footer = () => {
                 <div className="flex flex-col justify-center items-center gap-2">
                     <Link href="/" className="text-xl font-medium hover:underline">Home</Link>
                     <Link href="/ecosystem" className="text-xl font-medium hover:underline">Ecosystem</Link>
-                    <Link href="/buildwithai" className="text-xl font-medium hover:underline">Build With AI</Link>
+                    <Link href="/buildwithapi" className="text-xl font-medium hover:underline">Build With Api</Link>
                     <Link href="/community" className="text-xl font-medium hover:underline">Community</Link>
                     <Link href="/opensource" className="text-xl font-medium hover:underline">Open Source</Link>
                     <Link href="/token" className="text-xl font-medium hover:underline">Token</Link>

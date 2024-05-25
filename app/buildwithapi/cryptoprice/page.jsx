@@ -27,18 +27,22 @@ const CryptoPrice = () => {
         };
 
         fetchCryptoData();
+
+        const intervalId = setInterval(fetchCryptoData, 1000);
+
+        return () => clearInterval(intervalId);
     }, []);
 
     return (
         <section className="w-full flex justify-center items-center px-5 py-36">
             <div className="flex flex-col justify-center items-center gap-3 w-[80vw] md:w-[60vw]">
                 <h1 className="text-5xl font-semibold text-slate-200 text-center">{heading}</h1>
-                <h2 className="font-medium text-slate-300 text-center">{description}</h2>
+                <h2 className="font-medium text-xl text-slate-300 text-center">{description}</h2>
                 {/* Crypto Prices */}
                 <div className="flex flex-col justify-center items-center gap-4 mt-7">
                     <div className="flex flex-wrap justify-center items-center w-full gap-5">
                         {cryptoData.map((crypto, index) => (
-                            <div className="flex flex-col justify-between items-center gap-2 rounded-lg px-4 py-3 border-2 border-sky-600" key={index}>
+                            <div className="flex flex-col justify-between items-center gap-2 rounded-lg px-4 py-3 border-2 border-sky-600 w-[300px]" key={index}>
                                 <h3 className='text-2xl font-semibold text-slate-200'>{crypto.name}</h3>
                                 <p className='text-xl font-semibold text-slate-200'>Price: ${crypto.price}</p>
                                 <p className='text-xl font-semibold text-slate-200'>{new Date().toLocaleString()}</p>

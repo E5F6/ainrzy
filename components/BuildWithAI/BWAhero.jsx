@@ -2,26 +2,20 @@ import Link from "next/link"
 
 const BwaHero = () => {
 
-    const heading = "Projects Build Using Ai Api's"
-    const description = "Explore our creations powered by AI APIs. Dive into innovative projects leveraging AI technology to enhance functionality and user experience."
+    const heading = "Projects Build Using Api's"
+    const description = "Explore our creations powered by APIs. Dive into innovative projects leveraging Api technology to enhance functionality and user experience."
 
     const projects = [
         {
-            name: "Project 1",
-            desc: "Description about project",
-            link: "/buildwithai/cryptoprice",
+            name: "Live Crypto Price",
+            desc: "Stay updated with real-time cryptocurrency prices. This application is built using API integration, providing accurate and up-to-date information on various digital assets.",
+            link: "/buildwithapi/cryptoprice",
             image: "",
         },
         {
-            name: "Project 2",
-            desc: "Description about project",
-            link: "/buildwithai/texttoimage",
-            image: "",
-        },
-        {
-            name: "Project 3",
-            desc: "Description about project",
-            link: "/buildwithai/chatbot",
+            name: "Text To Speech Converter",
+            desc: "The Text To Speech Converter transforms written text into natural-sounding speech, enhancing accessibility for visually impaired individuals and providing a seamless user experience for converting text to audio.",
+            link: "/buildwithapi/texttospeech",
             image: "",
         },
     ]
@@ -30,14 +24,15 @@ const BwaHero = () => {
         <section className="w-full flex justify-center items-center px-5 py-36">
             <div className="flex flex-col justify-center items-center gap-3 w-[80vw] md:w-[60vw]">
                 <h1 className="text-5xl font-semibold text-slate-200 text-center">{heading}</h1>
-                <h2 className="font-medium text-slate-300 text-center">{description}</h2>
+                <h2 className="text-xl font-medium text-slate-300 text-center">{description}</h2>
                 <div className="flex flex-wrap justify-center items-stretch gap-5 mt-7">
                     {projects.map((project, index) => (
-                        <div className="flex flex-col justify-center items-center gap-3 text-center max-w-[300px] px-3 py-5 border-2 border-sky-600 rounded-lg" key={index}>
-                            <img src={project.image} alt="" className="h-[200px] w-full object-cover"/>
-                            <h1 className="text-2xl text-slate-200">{project.name}</h1>
-                            <h2 className="text-xl font-semibold text-slate-100">{project.desc}</h2>
-                            <Link href={project.link}><h4 className="text-slate-200 underline hover:text-sky-600">See Project</h4></Link>
+                        <div className="flex flex-col justify-center items-center text-center max-w-[300px] border-2 border-sky-600 rounded-lg" key={index}>
+                            <div className="flex flex-col justify-center items-center gap-3 p-5 h-full">
+                            <h1 className="text-2xl font-semibold text-slate-200 mt-0">{project.name}</h1>
+                            <h2 className="font-medium text-slate-100 my-auto">{project.desc}</h2>
+                            <Link href={project.link}><h4 className="text-slate-200 font-xl font-medium underline hover:text-sky-600 mb-0">See Project</h4></Link>
+                            </div>
                         </div>
                     ))}
                 </div>

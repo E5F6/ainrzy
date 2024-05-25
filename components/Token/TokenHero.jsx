@@ -10,7 +10,7 @@ const TokenHero = () => {
             <div className="flex flex-col justify-center items-center gap-3 col-span-1">
             <h1 className="text-5xl font-semibold text-slate-200 text-center">{heading}</h1>
             <h1 className="text-3xl font-semibold text-slate-200 text-center">{toxen}</h1>
-            <h2 className="font-medium text-slate-300 text-center">{description}</h2>
+            <h2 className="font-medium text-xl text-slate-300 text-center">{description}</h2>
             </div>
             <div className="flex justify-center items-center col-span-1">
                 <img src="/coin.png" alt="" className="max-h-[450px]"/>

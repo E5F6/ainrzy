@@ -33,7 +33,7 @@ const Ecosystem = () => {
         <section className="w-full flex flex-col justify-center items-center">
             <div className="w-full lg:w-[80vw] flex flex-col justify-center items-center gap-3 px-7 py-20">
             <h1 className="text-4xl font-semibold text-slate-200 text-center">{heading}</h1>
-            <h2 className="font-medium text-slate-300 text-center w-[80vw] md:w-[60vw] ">{description}</h2>
+            <h2 className="font-medium text-xl text-slate-300 text-center w-[80vw] md:w-[60vw] ">{description}</h2>
             <div className="flex flex-wrap justify-center items-center gap-5">
                 <Link href="/ecosystem" className="bg-sky-600 hover:bg-sky-700 transition ease-in-out px-5 py-3 font-medium text-xl text-slate-200 rounded-full">Discover More</Link>
                 <Link href="https://discord.com/invite/wQUKzFKd" className="bg-sky-600 hover:bg-sky-700 transition ease-in-out px-5 py-3 font-medium text-xl text-slate-200 rounded-full">Join Discord</Link>

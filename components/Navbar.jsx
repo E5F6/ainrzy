@@ -21,8 +21,8 @@ const Navbar = () => {
       url: "/ecosystem",
     },
     {
-      name: "Build With AI",
-      url: "/buildwithai",
+      name: "Build With Api",
+      url: "/buildwithapi",
     },
     {
       name: "Open Source",

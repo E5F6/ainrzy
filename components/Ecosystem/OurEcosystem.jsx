@@ -8,7 +8,7 @@ const OurEcosystem = () => {
     return(
         <section className="w-full flex flex-col justify-center items-center gap-5 px-7 py-20 sextion">
             <h1 className="text-4xl font-semibold text-slate-200 text-center">{heading}</h1>
-            <h1 className="font-medium text-slate-300 text-center w-[80vw] md:w-[60vw]">{description}</h1>
+            <h1 className="font-medium text-xl text-slate-300 text-center w-[80vw] md:w-[60vw]">{description}</h1>
         </section>
     )
 }

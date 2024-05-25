@@ -1,6 +1,6 @@
 import BwaHero from "@/components/BuildWithAI/BWAhero";
 
-const BuildAiHome = () => {
+const BuildApiHome = () => {
     return(
         <section>
             <BwaHero />
@@ -8,4 +8,4 @@ const BuildAiHome = () => {
     )
 }
 
-export default BuildAiHome;
+export default BuildApiHome;
