@@ -43,9 +43,9 @@ const Footer = () => {
                     <p className="text-xl font-medium">Bringing AI To Web3</p>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-2">
-                    <Link href="" className="text-xl font-medium">Home</Link>
-                    <Link href="" className="text-xl font-medium">Ecosystem</Link>
-                    <Link href="" className="text-xl font-medium">Token</Link>
+                    <Link href="" className="text-xl font-medium hover:underline">Home</Link>
+                    <Link href="" className="text-xl font-medium hover:underline">Ecosystem</Link>
+                    <Link href="" className="text-xl font-medium hover:underline">Token</Link>
                     </div>
                     <div className="flex flex-col justify-start items-center gap-3">
                         <h1 className="text-2xl font-medium">Follow Us On</h1>

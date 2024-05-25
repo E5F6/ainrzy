@@ -14,16 +14,20 @@ const Navbar = () => {
   const menuItems = [
     {
       name: "Home",
-      url: "",
+      url: "/",
     },
     {
       name: "Ecosystem",
-      url: "",
+      url: "/ecosystem",
     },
     {
         name: "Token",
-        url: "",
+        url: "/token",
     },
+    {
+      name: "Community",
+      url: "/community",
+  },
   ];
 
   return (

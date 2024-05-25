@@ -32,8 +32,8 @@ const Ecosystem = () => {
             <h1 className="text-4xl font-semibold text-slate-200 text-center">AI Network Ecosystem</h1>
             <h2 className="font-medium text-slate-300 text-center max-w-[900px]">AI Network is a decentralized AI development ecosystem open to all by gathering developers, GPUs, resources for development, and creator-based data in one place. It represents the future of collaborative AI to realize AI for everyone.</h2>
             <div className="flex flex-wrap justify-center items-center gap-5">
-                <button className="bg-sky-600 hover:bg-sky-700 transition ease-in-out px-5 py-3 font-medium text-xl text-slate-200 rounded-full">Discover More</button>
-                <button className="bg-sky-600 hover:bg-sky-700 transition ease-in-out px-5 py-3 font-medium text-xl text-slate-200 rounded-full">Join Discord</button>
+                <Link href="" className="bg-sky-600 hover:bg-sky-700 transition ease-in-out px-5 py-3 font-medium text-xl text-slate-200 rounded-full">Discover More</Link>
+                <Link href="" className="bg-sky-600 hover:bg-sky-700 transition ease-in-out px-5 py-3 font-medium text-xl text-slate-200 rounded-full">Join Discord</Link>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-stretch gap-5 mt-7">
             {hellox.map((hello,index)=>(
