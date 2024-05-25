@@ -28,11 +28,6 @@ const Footer = () => {
             icon: <FaGithub />,
             url: ""
         },
-        {
-            name: "Youtube",
-            icon: <FaYoutube />,
-            url: ""
-        }
     ]
 
     return (
@@ -40,12 +35,13 @@ const Footer = () => {
             <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-5 items-center w-full lg:w-[80vw] text-slate-200 text-center">
                     <div className="flex flex-col justify-start items-center gap-2">
                     <h1 className="text-2xl font-medium">AINRZY</h1>
-                    <p className="text-xl font-medium">Bringing AI To Web3</p>
+                    <p className="text-xl font-medium">Open Source Ai Community</p>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-2">
-                    <Link href="" className="text-xl font-medium hover:underline">Home</Link>
-                    <Link href="" className="text-xl font-medium hover:underline">Ecosystem</Link>
-                    <Link href="" className="text-xl font-medium hover:underline">Token</Link>
+                    <Link href="/" className="text-xl font-medium hover:underline">Home</Link>
+                    <Link href="/ecosystem" className="text-xl font-medium hover:underline">Ecosystem</Link>
+                    {/* <Link href="/token" className="text-xl font-medium hover:underline">Token</Link> */}
+                    <Link href="/community" className="text-xl font-medium hover:underline">Community</Link>
                     </div>
                     <div className="flex flex-col justify-start items-center gap-3">
                         <h1 className="text-2xl font-medium">Follow Us On</h1>

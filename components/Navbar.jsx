@@ -20,10 +20,10 @@ const Navbar = () => {
       name: "Ecosystem",
       url: "/ecosystem",
     },
-    {
-        name: "Token",
-        url: "/token",
-    },
+    // {
+    //     name: "Token",
+    //     url: "/token",
+    // },
     {
       name: "Community",
       url: "/community",
