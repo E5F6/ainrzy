@@ -6,7 +6,7 @@ const Hero = () => {
 
     return(
         <section className="w-full flex justify-center items-center px-5 py-36">
-            <div className="flex flex-col justify-center items-center gap-3 w-[60vw]">
+            <div className="flex flex-col justify-center items-center gap-3 w-[80vw] md:w-[60vw]">
             <h1 className="text-5xl font-semibold text-slate-200 text-center">{heading1}</h1>
             <h1 className="text-3xl font-semibold text-slate-200 text-center">{heading2}</h1>
             <h2 className="font-medium text-slate-300 text-center">{description}</h2>
