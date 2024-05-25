@@ -32,28 +32,30 @@ const Footer = () => {
     return (
         <footer className="w-full px-5 py-10 flex flex-col justify-center items-center footer">
             <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-5 items-center w-full lg:w-[80vw] text-slate-200 text-center">
-                    <div className="flex flex-col justify-start items-center gap-2">
+                <div className="flex flex-col justify-start items-center gap-2">
                     <h1 className="text-2xl font-medium">AINRZY</h1>
                     <p className="text-xl font-medium">Open Source Ai Community</p>
-                    </div>
-                    <div className="flex flex-col justify-center items-center gap-2">
+                </div>
+                <div className="flex flex-col justify-center items-center gap-2">
                     <Link href="/" className="text-xl font-medium hover:underline">Home</Link>
                     <Link href="/ecosystem" className="text-xl font-medium hover:underline">Ecosystem</Link>
-                    <Link href="/token" className="text-xl font-medium hover:underline">Token</Link>
+                    <Link href="/buildwithai" className="text-xl font-medium hover:underline">Build With AI</Link>
                     <Link href="/community" className="text-xl font-medium hover:underline">Community</Link>
+                    <Link href="/opensource" className="text-xl font-medium hover:underline">Open Source</Link>
+                    <Link href="/token" className="text-xl font-medium hover:underline">Token</Link>
+                </div>
+                <div className="flex flex-col justify-start items-center gap-3">
+                    <h1 className="text-2xl font-medium">Follow Us On</h1>
+                    <div className="flex flex-wrap justify-center items-center gap-4">
+                        {socials.map((social, index) => (
+                            <div key={index} className="">
+                                <Link href={social.url}>
+                                    <h1 className="text-3xl">{social.icon}</h1>
+                                </Link>
+                            </div>
+                        ))}
                     </div>
-                    <div className="flex flex-col justify-start items-center gap-3">
-                        <h1 className="text-2xl font-medium">Follow Us On</h1>
-                        <div className="flex flex-wrap justify-center items-center gap-4">
-                            {socials.map((social, index) => (
-                                <div key={index} className="">
-                                    <Link href={social.url}>
-                                        <h1 className="text-3xl">{social.icon}</h1>
-                                    </Link>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
+                </div>
             </section>
         </footer>
     )

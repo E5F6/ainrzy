@@ -21,13 +21,21 @@ const Navbar = () => {
       url: "/ecosystem",
     },
     {
-        name: "Token",
-        url: "/token",
+      name: "Build With AI",
+      url: "/buildwithai",
+    },
+    {
+      name: "Open Source",
+      url: "/opensource",
     },
     {
       name: "Community",
       url: "/community",
-  },
+    },
+    {
+      name: "Token",
+      url: "/token",
+    },
   ];
 
   return (
@@ -110,7 +118,7 @@ const Navbar = () => {
         <div className="flex lg:hidden flex-col justify-center items-center self-start w-full gap-5 mt-3 mb-3">
           {menuItems.map((menuItems, index) => (
             <Link
-            href={menuItems.url}
+              href={menuItems.url}
               key={index}
               className="text-white hover:bg-sky-600 w-full cursor-pointer px-3 py-2 font-medium rounded-lg self-start"
             >
