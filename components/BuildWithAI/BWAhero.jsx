@@ -18,6 +18,12 @@ const BwaHero = () => {
             link: "/buildwithapi/texttospeech",
             image: "",
         },
+        {
+            name: "Qr Code Generator",
+            desc: "The QR Code Generator empowers users to create QR codes quickly and effortlessly, facilitating seamless sharing of information across various platforms and enhancing user engagement with your content.",
+            link: "/buildwithapi/qrcode",
+            image: "",
+        },
     ]
 
     return (
@@ -29,9 +35,9 @@ const BwaHero = () => {
                     {projects.map((project, index) => (
                         <div className="flex flex-col justify-center items-center text-center max-w-[300px] border-2 border-sky-600 rounded-lg" key={index}>
                             <div className="flex flex-col justify-center items-center gap-3 p-5 h-full">
-                            <h1 className="text-2xl font-semibold text-slate-200 mt-0">{project.name}</h1>
-                            <h2 className="font-medium text-slate-100 my-auto">{project.desc}</h2>
-                            <Link href={project.link}><h4 className="text-slate-200 font-xl font-medium underline hover:text-sky-600 mb-0">See Project</h4></Link>
+                                <h1 className="text-2xl font-semibold text-slate-200 mt-0">{project.name}</h1>
+                                <h2 className="font-medium text-slate-100 my-auto">{project.desc}</h2>
+                                <Link href={project.link}><h4 className="text-slate-200 font-xl font-medium underline hover:text-sky-600 mb-0">See Project</h4></Link>
                             </div>
                         </div>
                     ))}
