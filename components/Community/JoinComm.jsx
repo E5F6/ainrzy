@@ -46,7 +46,7 @@ const JoinComm = () => {
                     <h1 className="text-3xl text-slate-200">{communitie.icon}</h1>
                     <h2 className="text-2xl font-semibold text-slate-100">{communitie.name}</h2>
                     <h3 className="font-medium text-slate-300">{communitie.desc}</h3>
-                    <Link href = {communitie.link}><h4 className="text-slate-200 font-medium underline hover:text-sky-600">Click To Join</h4></Link>
+                    <Link target="blank" href = {communitie.link}><h4 className="text-slate-200 font-medium underline hover:text-sky-600">Click To Join</h4></Link>
                 </div>
             ))}
             </div>

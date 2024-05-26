@@ -4,9 +4,9 @@ const Trymodels = () => {
 
     const models = [
         {
-            name: "AiNrzy Token",
-            tag: "$AiNrzy",
-            url: "/token",
+            name: "Open Source",
+            tag: "#Open-Source",
+            url: "/opensource",
         },
         {
             name: "Community",

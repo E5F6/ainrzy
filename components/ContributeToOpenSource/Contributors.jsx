@@ -7,14 +7,14 @@ const Contributors = () => {
 
     const peoples = [
         {
-            name: "User1",
-            handle: "@User1",
-            link: "",
+            name: "Priyanshu",
+            handle: "@Priyannxhuu",
+            link: "https://github.com/Priyannxhuu",
         },
         {
-            name: "User2",
-            handle: "@User2",
-            link: "",
+            name: "Keshav",
+            handle: "@IeKeshav",
+            link: "https://github.com/IeKeshav",
         },
         {
             name: "User3",
@@ -40,7 +40,7 @@ const Contributors = () => {
             <h2 className="text-xl font-medium text-slate-300 text-center w-[80vw] md:w-[60vw]">{description}</h2>
             <div className="flex flex-wrap justify-center items-stretch gap-5 mt-7 px-3 py-2 rounded-lg border-2 border-sky-600">
             {peoples.map((people , index) => (
-                <Link href={people.link} className="flex justify-center items-center gap-3 text-center px-5 py-3 rounded-lg card" key={index}>
+                <Link target="blank" href={people.link} className="flex justify-center items-center gap-3 text-center px-5 py-3 rounded-lg card" key={index}>
                     <h1 className="text-4xl text-slate-200"><FaGithub /></h1>
                     <div className="flex flex-col justify-center items-center gap-1">
                     <h1 className="font-semibold text-slate-100">{people.name}</h1>

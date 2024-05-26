@@ -36,6 +36,10 @@ const Navbar = () => {
       name: "Token",
       url: "/token",
     },
+    {
+      button: "Account",
+      url: "/account/login"
+    }
   ];
 
   return (
@@ -54,6 +58,7 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
+        <Link href="/account/signup" className="bg-sky-600 hover:bg-sky-700 transition ease-in-out px-5 py-2 font-medium text-xl text-slate-200 rounded-lg">Account</Link>
         {/* Menu Icons */}
         <div className="flex lg:hidden">
           <button
@@ -125,6 +130,7 @@ const Navbar = () => {
               {menuItems.name}
             </Link>
           ))}
+          <Link href="/account/login" className="bg-sky-600 hover:bg-sky-700 transition ease-in-out px-5 py-2 font-medium text-xl text-slate-200 rounded-lg">Account</Link>
         </div>
       )}
     </nav>

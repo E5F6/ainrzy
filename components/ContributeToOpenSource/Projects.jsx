@@ -6,19 +6,19 @@ const ContributeProjects = () => {
 
     const projects = [
         {
-            name: "Project 1",
-            desc: "Description about project",
-            link: "https://github.com/ainrzy-org",
+            name: "AiNrzy Learning",
+            desc: "E-learning Platform with AI-based Adaptive Learning",
+            link: "https://github.com/AiNrzy-Org/AiNrzy-Learning",
         },
         {
-            name: "Project 2",
-            desc: "Description about project",
-            link: "https://github.com/ainrzy-org",
+            name: "AiNrzy Meet",
+            desc: "Next-Gen Video Calling with AI Enhancements",
+            link: "https://github.com/AiNrzy-Org/AiNrzy-Meet",
         },
         {
-            name: "Project 3",
-            desc: "Description about project",
-            link: "https://github.com/ainrzy-org",
+            name: "AiNrzy Dash",
+            desc: "Social Media Dashboard with AI-powered Sentiment Analysis",
+            link: "https://github.com/AiNrzy-Org/AiNrzy-Dash",
         },
     ]
 
@@ -32,7 +32,7 @@ const ContributeProjects = () => {
                 <div className="flex flex-col justify-center items-center gap-3 text-center max-w-[300px] px-3 py-5 border-2 border-sky-600 rounded-lg" key={index}>
                     <h1 className="text-2xl text-slate-200 font-semibold">{project.name}</h1>
                     <h2 className="text-xl font-medium text-slate-100">{project.desc}</h2>
-                    <Link href = {project.link}><h4 className="text-slate-200 underline hover:text-sky-600 font-medium">Click To Contribute</h4></Link>
+                    <Link target="blank" href = {project.link}><h4 className="text-slate-200 underline hover:text-sky-600 font-medium">Click To Contribute</h4></Link>
                 </div>
             ))}
             </div>
