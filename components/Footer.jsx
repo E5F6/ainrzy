@@ -43,7 +43,7 @@ const Footer = () => {
                     <Link href="/buildwithapi" className="text-xl font-medium hover:underline">Build With Api</Link>
                     <Link href="/community" className="text-xl font-medium hover:underline">Community</Link>
                     <Link href="/opensource" className="text-xl font-medium hover:underline">Open Source</Link>
-                    <Link href="/token" className="text-xl font-medium hover:underline">Token</Link>
+                    <Link href="/token" className="text-xl font-medium hover:underline">Contract</Link>
                 </div>
                 <div className="flex flex-col justify-start items-center gap-3">
                     <h1 className="text-2xl font-medium">Follow Us On</h1>

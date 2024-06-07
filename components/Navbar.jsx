@@ -11,6 +11,10 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const closeNav = () => {
+    setIsOpen(false)
+  }
+
   const menuItems = [
     {
       name: "Home",
@@ -33,7 +37,7 @@ const Navbar = () => {
       url: "/community",
     },
     {
-      name: "Token",
+      name: "Contract",
       url: "/token",
     },
   ];
@@ -121,6 +125,7 @@ const Navbar = () => {
             <Link
               href={menuItems.url}
               key={index}
+              onClick={closeNav}
               className="text-white hover:bg-sky-600 w-full cursor-pointer px-3 py-2 font-medium rounded-lg self-start"
             >
               {menuItems.name}

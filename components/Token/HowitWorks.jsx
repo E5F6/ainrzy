@@ -4,13 +4,10 @@ const HowitWorks = () => {
 
     const steps = [
         {
-            stepno: "Resource Providers Contribute GPUs to AI Network and get rewarded with $AIN token",
+            stepno: "Resource Providers Contribute GPUs to AiNrzy and get rewarded with $AIN token",
         },
         {
-            stepno: "Developers Contribute open source code to AI Network and get rewarded with either $AIN token or computing resources",
-        },
-        {
-            stepno: "Creators Utilize GPUs and open source to transform their AI creations into AINFTs.",
+            stepno: "Developers Contribute open source code to AiNrzy and get rewarded with either $AIN token or computing resources",
         },
     ]
 
@@ -21,7 +18,7 @@ const HowitWorks = () => {
             <div className="grid grid-cols-1 justify-center items-center gap-5 mt-3">
                 {steps.map((step , index) => (
                     <div key={index} className="flex flex-col justify-center items-center gap-3 text-center w-full">
-                        <h1 className="text-xl font-medium text-slate-200 mt-0 px-5 py-2 rounded-full bg-sky-600">{step.stepno}</h1>
+                        <h1 className="text-xl font-medium text-slate-200 mt-0 px-5 py-2 rounded-lg bg-sky-600">{step.stepno}</h1>
                     </div>
                 ))}
             </div>

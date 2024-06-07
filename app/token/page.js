@@ -8,8 +8,8 @@ const TokenHome = () => {
     return(
         <section>
             <TokenHero />
-            {/* <HowitWorks /> */}
             <Contract />
+            <HowitWorks />
             <Relationship />
             <Purchase />
         </section>
