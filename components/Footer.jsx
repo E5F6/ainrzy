@@ -35,7 +35,7 @@ const Footer = () => {
                 <div className="flex flex-col justify-start items-center gap-2">
                     <h1 className="text-2xl font-medium">AINRZY</h1>
                     <p className="text-xl font-medium">Open Source Ai Community</p>
-                    <Link href="/account/signup" className="bg-sky-600 hover:bg-sky-700 transition ease-in-out px-5 py-2 font-medium text-xl text-slate-200 rounded-lg">Account</Link>
+                    <Link href="/account/signup" className="bg-sky-700 hover:bg-sky-800 transition ease-in-out px-5 py-2 font-medium text-xl text-slate-200 rounded-lg">Account</Link>
                 </div>
                 <div className="flex flex-col justify-center items-center gap-2">
                     <Link href="/" className="text-xl font-medium hover:underline">Home</Link>

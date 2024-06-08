@@ -53,12 +53,12 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="hidden lg:flex justify-center items-center gap-5 text-white">
           {menuItems.map((menuItems, index) => (
-            <Link href={menuItems.url} className="hover:bg-sky-600 cursor-pointer px-3 py-2 font-medium rounded-lg" key={index}>
+            <Link href={menuItems.url} className="hover:bg-sky-700 cursor-pointer px-3 py-2 font-medium rounded-lg" key={index}>
               {menuItems.name}
             </Link>
           ))}
         </div>
-        <Link href="/account/signup" className="hidden lg:flex bg-sky-600 hover:bg-sky-700 transition ease-in-out px-5 py-2 font-medium text-xl text-slate-200 rounded-lg">Account</Link>
+        <Link href="/account/signup" className="hidden lg:flex bg-sky-700 hover:bg-sky-800 transition ease-in-out px-5 py-2 font-medium text-xl text-slate-200 rounded-lg">Account</Link>
         {/* Menu Icons */}
         <div className="flex lg:hidden">
           <button
@@ -126,12 +126,12 @@ const Navbar = () => {
               href={menuItems.url}
               key={index}
               onClick={closeNav}
-              className="text-white hover:bg-sky-600 w-full cursor-pointer px-3 py-2 font-medium rounded-lg self-start"
+              className="text-white hover:bg-sky-700 w-full cursor-pointer px-3 py-2 font-medium rounded-lg self-start"
             >
               {menuItems.name}
             </Link>
           ))}
-          <Link href="/account/login" className="bg-sky-600 hover:bg-sky-700 text-center transition ease-in-out px-5 py-2 font-medium text-xl text-slate-200 rounded-lg mb-3 w-full">Account</Link>
+          <Link href="/account/login" className="bg-sky-700 hover:bg-sky-800 text-center transition ease-in-out px-5 py-2 font-medium text-xl text-slate-200 rounded-lg mb-3 w-full">Account</Link>
         </div>
       )}
     </nav>

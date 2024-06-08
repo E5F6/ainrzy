@@ -51,7 +51,7 @@ const QRCodeGenerator = () => {
           />
           <div className="flex gap-5">
             <button
-              className="bg-sky-600 hover:bg-sky-700 transition ease-in-out px-5 py-2 font-medium text-xl text-slate-200 rounded-lg"
+              className="bg-sky-700 hover:bg-sky-800 transition ease-in-out px-5 py-2 font-medium text-xl text-slate-200 rounded-lg"
               onClick={downloadQRCode}
               disabled={!qrImageUrl}
             >

@@ -21,7 +21,7 @@ const Relationship = () => {
             <div className="grid grid-cols-1 justify-center items-center gap-5 mt-3">
                 {steps.map((step , index) => (
                     <div key={index} className="flex flex-col justify-center items-center gap-3 text-center w-full">
-                        <h1 className="text-xl font-medium text-slate-200 mt-0 px-5 py-2 rounded-lg bg-sky-600">{step.stepno}</h1>
+                        <h1 className="text-xl font-medium text-slate-200 mt-0 px-5 py-2 rounded-lg bg-sky-700">{step.stepno}</h1>
                     </div>
                 ))}
             </div>

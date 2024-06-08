@@ -33,11 +33,11 @@ const BwaHero = () => {
                 <h2 className="text-xl font-medium text-slate-300 text-center">{description}</h2>
                 <div className="flex flex-wrap justify-center items-stretch gap-5 mt-7">
                     {projects.map((project, index) => (
-                        <div className="flex flex-col justify-center items-center text-center max-w-[300px] border-2 border-sky-600 rounded-lg" key={index}>
+                        <div className="flex flex-col justify-center items-center text-center max-w-[300px] border-2 border-sky-700 rounded-lg" key={index}>
                             <div className="flex flex-col justify-center items-center gap-3 p-5 h-full">
                                 <h1 className="text-2xl font-semibold text-slate-200 mt-0">{project.name}</h1>
                                 <h2 className="font-medium text-slate-100 my-auto">{project.desc}</h2>
-                                <Link href={project.link}><h4 className="text-slate-200 font-xl font-medium underline hover:text-sky-600 mb-0">See Project</h4></Link>
+                                <Link href={project.link}><h4 className="text-slate-200 font-xl font-medium underline hover:text-sky-700 mb-0">See Project</h4></Link>
                             </div>
                         </div>
                     ))}

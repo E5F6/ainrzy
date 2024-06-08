@@ -7,6 +7,10 @@ const Contract = () => {
             name: "View Smart Contract",
             url: "https://cardona-zkevm.polygonscan.com/token/0x5bf8db72bba16403c4e34377f9c42057637830f8",
         },
+        {
+            name: "Github Repo",
+            url: "https://github.com/E5F6/smart-contract.git",
+        },
     ]
 
     return (
@@ -15,7 +19,7 @@ const Contract = () => {
             <h1 className="text-xl font-medium text-slate-300 text-center">AiNrzy is a custom ERC-20 token on Polygon for secure and efficient blockchain transactions.</h1>
             <div className="flex flex-wrap justify-center items-center gap-5">
                 {models.map((model, index) => (
-                    <Link key={index} href={model.url} target="blank" className="rounded-lg flex flex-col justify-center items-center gap-3 px-5 py-3 border-2 border-sky-600 hover:bg-sky-600 transition ease-in-out">
+                    <Link key={index} href={model.url} target="blank" className="rounded-lg flex flex-col justify-center items-center gap-3 px-5 py-3 border-2 border-sky-700 hover:bg-sky-700 transition ease-in-out">
                         <p className="text-xl font-medium text-slate-300">{model.name}</p>
                     </Link>
                 ))}

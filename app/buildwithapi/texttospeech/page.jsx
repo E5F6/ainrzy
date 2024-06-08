@@ -48,8 +48,8 @@ const TextToSpeech = () => {
         <div className="flex flex-col justify-center items-stretch gap-5 mt-7 w-full">
           <textarea className='w-full px-5 py-3 rounded-lg text-slate-200 outline-none card' placeholder='Enter Text To Speak' onChange={handleInputChange} value={text}></textarea>
           <div className="flex gap-5">
-            <button className={`bg-sky-600 hover:bg-sky-700 transition ease-in-out px-5 py-2 font-medium text-xl text-slate-200 rounded-lg ${isSpeaking ? 'opacity-50 cursor-not-allowed' : ''}`} onClick={speakText} disabled={isSpeaking}>Speak</button>
-            <button className="bg-sky-600 hover:bg-sky-700 transition ease-in-out px-5 py-2 font-medium text-xl text-slate-200 rounded-lg" onClick={downloadAudio}>Download Audio</button>
+            <button className={`bg-sky-700 hover:bg-sky-800 transition ease-in-out px-5 py-2 font-medium text-xl text-slate-200 rounded-lg ${isSpeaking ? 'opacity-50 cursor-not-allowed' : ''}`} onClick={speakText} disabled={isSpeaking}>Speak</button>
+            <button className="bg-sky-700 hover:bg-sky-800 transition ease-in-out px-5 py-2 font-medium text-xl text-slate-200 rounded-lg" onClick={downloadAudio}>Download Audio</button>
           </div>
           {audioUrl && <audio src={audioUrl} controls className='mt-4 hidden'></audio>}
         </div>
