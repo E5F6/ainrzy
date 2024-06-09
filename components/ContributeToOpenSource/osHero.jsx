@@ -1,7 +1,7 @@
 const OpenSourceHero = () => {
 
     const heading = "Contribute To AiNrzy Open Source"
-    const description = "Join the AiNrzy open-source community! Contribute your skills and ideas to our projects, fostering innovation and collaboration in the world of AI development."
+    const description = "Join the AiNrzy open-source community! Contribute your skills and ideas to open-source projects, fostering innovation and collaboration in the world of AI development."
 
     return(
         <section className="w-full flex justify-center items-center px-5 py-36">

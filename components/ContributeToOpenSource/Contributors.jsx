@@ -17,9 +17,9 @@ const Contributors = () => {
             link: "https://github.com/IeKeshav",
         },
         {
-            name: "User3",
-            handle: "@User3",
-            link: "",
+            name: "Rudra",
+            handle: "@Rudrash170",
+            link: "https://github.com/Rudrash170",
         },
         {
             name: "User4",

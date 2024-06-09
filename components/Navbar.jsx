@@ -47,7 +47,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between w-full lg:w-[80vw]">
         {/* Logo */}
         <Link href="/" className="flex items-center text-white text-3xl gap-2 font-bold px-3">
-          <Image src="/logo.png" height={40} width={40}></Image>
+          <Image src="/logo.png" alt="logo" height={40} width={40}></Image>
           <h1 className="text-xl font-bold">AiNrzy</h1>
         </Link>
         {/* Desktop Menu */}

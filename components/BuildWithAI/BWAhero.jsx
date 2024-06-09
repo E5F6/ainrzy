@@ -7,6 +7,12 @@ const BwaHero = () => {
 
     const projects = [
         {
+            name: "Latest News In Technology",
+            desc: "Discover the most recent tech innovations and trends with our latest technology news, powered by real-time API updates.",
+            link: "/buildwithapi/chain-gpt-news",
+            image: "", 
+        },
+        {
             name: "Live Crypto Price",
             desc: "Stay updated with real-time cryptocurrency prices. This application is built using API integration, providing accurate and up-to-date information on various digital assets.",
             link: "/buildwithapi/cryptoprice",
@@ -18,12 +24,12 @@ const BwaHero = () => {
             link: "/buildwithapi/texttospeech",
             image: "",
         },
-        {
-            name: "Qr Code Generator",
-            desc: "The QR Code Generator empowers users to create QR codes quickly and effortlessly, facilitating seamless sharing of information across various platforms and enhancing user engagement with your content.",
-            link: "/buildwithapi/qrcode",
-            image: "",
-        },
+        // {
+        //     name: "Qr Code Generator",
+        //     desc: "The QR Code Generator empowers users to create QR codes quickly and effortlessly, facilitating seamless sharing of information across various platforms and enhancing user engagement with your content.",
+        //     link: "/buildwithapi/qrcode",
+        //     image: "",
+        // },
     ]
 
     return (
